@@ -44,7 +44,7 @@ function TwitchBot.new(nickname, password, channel, host, port)
 	self.host = host or TwitchBot.DEFAULT_HOST
 	self.port = port or TwitchBot.DEFAULT_PORT
 	
-	self.debug = true
+	self.debug = false
 	
 	self:connect()
 	
